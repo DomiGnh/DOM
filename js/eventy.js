@@ -19,3 +19,28 @@ function alarm(e){
 
 secondLink.onclick = alarm; //wywołujemy funkcje alarm() na drugim linku po kliknięciu
 
+var thirdLink = document.getElementsByTagName('a')[2]; // tworzymy zmienna z 3 linkiem 
+
+thirdLink.addEventListener('click', alarm);//wywolujemy funkcje alarm() na trzecim linku po kliknieciu za pomoca event Listenera
+
+thirdLink.removeEventListener('click', alarm);//usuwamy Listenera, mozna go usunąc bo jest nazwa funkcji, fuknkcji anonimowych nie da sie usunac. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
